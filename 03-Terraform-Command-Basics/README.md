@@ -37,7 +37,7 @@ az account set --subscription="SUBSCRIPTION_ID"
 ```t
 # Terraform Settings Block
 terraform {
-  required_version = ">= 1.0.0"
+  required_version = ">= 1.0.0" # cli version
   required_providers {
     azurerm = {
       source = "hashicorp/azurerm"
